@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="scene.css">
+        <script src="https://kit.fontawesome.com/b18b372a25.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+    <div class="full">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/narendra logo.png" class="logo" width="20%" height="15%">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Certifications</a></li>
+                        <li><a href="#">Coding Stats</a></li>
+                        <li><a href="#">Contact</a></li>
+                
+                    </ul>
+
+                </nav>
+                <div class="header-text">
+                    <!-- <p>An Upcomming Software Engineer</p> -->
+                    <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%FFFFFF&size=52&center=true&vCenter=true&height=62&width=601&lines=An+Upcoming+Engineer!!!;Welcomes+to+his+profile!!!" alt="Title"></img>
+                    <h3>Hi, This is <span>Narendra Kumar Reddy</span><br>from Andhra Pradesh.</h3>
+                </div>
+            </div>
+        </div>
+        <!--------about------------------------------------------------------------------------------------------------------------->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/sunflower.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="Subtitle">ABOUT ME</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fuga temporibus minima quaerat quibusdam voluptatum distinctio asperiores dolorum excepturi. Explicabo repellat quo alias autem necessitatibus laudantium hic magni amet facere?</p>
+                        <div class="tab-titles">
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>PYTHON</span><br>Professional level has been achived</li>
+                                <li><span>C++</span><br>Professional level is being achived</li>
+                                <li><span>JAVA</span><br>Basic level crossed</li>
+                                <li><span>3D DESINING</span><br>I have enough knowledge on this</li>
+                                <li><span>FRONTEND DESINING</span><br>No need to explain as you are watching this.<br>This is made using HTML, CSS and JAVASCRIPT</li>
+                                <li><span>MACHINE LEARNING</span><br>It is on the Learning state</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>No Experience</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Diploma</span><br>Diploma in Mechanical Engineering<br>LOYOLA POLYTECHNIC, Pulivendla<br>Andhra Pradesh.<br>percentage&emsp; &emsp;      -87%</li>
+                                <li><span>UNDER GRADUATE</span><br>Btech in Artificial Intelligence & Machine Learning<br>Chandigarh Group of Colleges, Jhanjeri<br>Punjab.<br>Not yet done &emsp;😅</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-------------projects-------------------------------------------------------------------------------->
+        <div class="projects">
+            <div class="container">
+                <h1 class="Subtitle">PROJECTS</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Machine Learning</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, illum odit illo ipsum praesentium assumenda.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-square-js"></i>
+                        <h2>Three.JS </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ullam voluptates mollitia asperiores commodi doloribus.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum eius eveniet, aperiam libero facilis pariatur.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------certification------------------------------------------------------------------------------------------------->
+        <div class="certifi">
+            <div class="container">
+                <h1 class="Subtitle">CERTIFICATIONS</h1>
+                <div class="c-data">
+                    <div class="data">
+                        <img src="images/infy logo.png" height="99.5%" >                 
+                    </div>
+                    <div class="data">
+                        <img src="images/cn.jpg">
+                    </div>
+                    <div class="data">
+                        <img src="images/programiz.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----coding status--------------------------------------------------------------------------------------------------------->
+        <div class="codestat">
+            <div class="container">
+                <h1 class="Subtitle">CODING STATUS</h1>
+                <div class="c-stats">
+                    <div class="status">
+                        <img class="c-links" onclick="openc('leetcode')" src="images/leetcode.jpg">
+                    </div>
+                    <div class="status">
+                        <img class="c-links" onclick="openc('codechef')" src="images/codechef.jpg">
+                    </div>
+                    <div class="status">
+                        <img class="c-links" onclick="openc('hackerrank')" src="images/hackerrank.png">
+                    </div>
+                    <div class="status">
+                        <img class="c-links" onclick="openc('codingninjas')" src="images/cnnew.png">
+                    </div>
+                    <div class="status">
+                        <img class="c-links" onclick="openc('github')" src="images/github.png">
+                    </div>
+                </div>
+                <div class="c-content" id="leetcode" >
+                    <h2 align="center">LEETCODE</h2>
+                    <p>&emsp;&emsp;&emsp;A coding platform where I used to practise questions. I prefer Python as my 1st language. Upto my Knowledge, I have done about 350+ Questions in this platform. </p>
+                    <h3>Topics I have covered</h3>
+                    <ul>
+                        <li>Basics</li>
+                        <li>Logics</li>
+                        <li>Arrays</li>
+                        <li>Stack</li>
+                        <li>Strings</li>
+                        <li>Matrices</li>
+                        <li>Linklist</li>
+                        <li>MySQL</li>
+                    </ul>
+                    <br>
+                    <div class="but" align="center">
+                        <a href="https://leetcode.com/narendra_036/">Visit profile</a>
+                    </div>
+
+                </div>
+                <div class="c-content" id="codechef" >
+                    <h2 align="center">CODE CHEF</h2>
+                    <p>
+                        This is the place where I have started my coding journey. 
+                    </p>
+                    <ul>
+                        <li>Solved 230+ Questions.</li>
+                        <li>Acheived 2⭐.</li>
+                    </ul>
+                    <div class="but" align="center">
+                        <a href="https://www.codechef.com/users/narendrakadiri">Visit profile</a>
+                    </div>
+                </div>
+                <div class="c-content" id="hackerrank" >
+                    <h2 align="center">HACKER RANK</h2>
+                    <p>This is the platform where I have earned my first certificate.</p>
+                    <ul>
+                        <li>5⭐ in PYTHON.</li>
+                        <li>Python Basic Certification.</li>
+                    </ul>
+                    <div class="but" align="center">
+                        <a href="https://www.hackerrank.com/narendraknr12345">Visit profile</a>
+                    </div>
+                </div>
+                <div class="c-content" id="codingninjas">
+                    <h2 align="center">CODE STUDIOS</h2>
+                    <p >Code Studio by CodingNinjas. I have completed a lot of courses in this.</p>
+                    <h3 >Courses I have done</h3>
+                    <ul>
+                        <li>Basics of Machine Learning.</li>
+                        <li>Basics of HTML.</li>
+                        <li>Basics of CSS.</li>
+                        <li>Basics of JavaScript.</li>
+                        <li>Basics of Python.</li>
+                        <li>Oops in Python.</li>
+                    </ul>
+                    <div class="but" align="center">
+                        <a href="https://www.codingninjas.com/codestudio/profile/Narendra_6707">Visit profile</a>
+                    </div>
+                </div>
+                <div class="c-content" id="github">
+                    <h2 align="center">GITHUB</h2>
+                    <p>This is the place where, I store all my data in the repositories.<br>Even this page is hosting by github</p>
+                    <div class="but" align="center">
+                        <a href="https://github.com/Narendrakumarreddy-Kadiri">Visit profile</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!---------------------------------------------------------contact details------------------------------------------------------------------>
+        <div class="contact">
+            <div class="container">
+                <h1 class="Subtitle">CONTACT</h1>
+
+                <div class="contactme">
+                <div class="social">
+                    <a href="https://www.facebook.com/narendrakumar.reddy.754/"target="_blank"><img src="images/fb.png"></a>
+                </div>
+                <div class="social">
+                    <a href="https://api.whatsapp.com/send?phone=+918790729468&text=HII" target="_blank"><img src="images/what.png"></a>
+                </div>
+                <div class="social">
+                   <a href="https://www.instagram.com/_.mr__reddy/" target="_blank"> <img  src="images/insta.jpg"></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/narendra-kumar-reddy-a60928224/" target="_blank"><img src="images/link.jpg"></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.snapchat.com/add/just_narendra?share_id=LM61Y7SnPYM&locale=en-GB" target="_blank"><img src="images/snap.png"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-----script for about----------------------------------------------------------------------------------------------------------->
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var cstats=document.getElementsByClassName("c-links");
+        var cdata=document.getElementsByClassName("c-content");
+        function openc(tabname){
+            for(tablink of cstats){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of cdata){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    </body>
+</html>
